@@ -1,0 +1,58 @@
+* {
+    margin: 0;
+}
+.container {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+
+    height: 100vh;
+    background-color: black;
+
+}
+
+.timer {
+    text-align: center;
+    
+}
+
+.display {
+    margin-bottom: 2rem;
+    color: white;font-size: 3rem;
+    font-weight: 700;
+}
+
+.start {
+    background-color: rgb(2, 253, 2);
+    padding: .5rem 1rem;
+    border-radius: 2rem;
+    color: white;
+    font-size: medium;
+    font-weight: 700;
+    cursor: pointer;
+
+}
+
+.start:disabled{
+    background-color: green;
+}
+
+.pause {
+    background-color: darkgrey;
+    padding: .5rem 1rem;
+    border-radius: 2rem;
+    color: rgb(252, 249, 249);
+    font-size: medium;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.stop {
+    background-color: darkred;
+    padding: .5rem 1rem;
+    border-radius: 2rem;
+    color: white;
+    font-size: medium;
+    font-weight: 700;
+    cursor: pointer;
+}
